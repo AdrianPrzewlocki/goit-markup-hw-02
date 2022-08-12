@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #212121;
+}
+
+.menu a {
+    color: #212121;
+    text-decoration: none;
+    
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.logo-name {
+    color: #2196F3;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+a:hover, a:focus {
+    color: #2196F3;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+figcaption p {
+    color: #757575;
+}
+
+.adress a {
+    text-decoration: none;
+}
