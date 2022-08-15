@@ -22,12 +22,12 @@ body {
     color: #2196F3;
 }
 
-button {
+.btn {
     cursor: pointer;
 }
 
-button:hover,
-button:focus {
+.btn:hover,
+.btn:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
