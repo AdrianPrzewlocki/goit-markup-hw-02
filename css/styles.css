@@ -144,6 +144,10 @@ body {
 
 /* menu buttons */
 
+.menu__list {
+    list-style-type: none;
+}
+
 .btn__item {
     font-weight: 500;
     cursor: pointer;
