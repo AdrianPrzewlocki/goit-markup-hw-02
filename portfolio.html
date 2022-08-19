@@ -15,33 +15,40 @@
 	</head>
 	<body>
 		<header class="header">
+			<a class="logo header__logo" href="./index.html"
+				><b><span class="logo__item">Web</span>Studio</b></a
+			>
 			<nav>
-				<a class="header__logo logo" href="./index.html"
-					><b><span class="logo__item">Web</span>Studio</b></a
-				>
 				<ul class="header__list">
 					<li>
-						<a href="./index.html" title="Agencja">Agencja</a>
+						<a class="header__item" href="./index.html" title="Agencja"
+							>Agencja</a
+						>
 					</li>
 					<li>
-						<a href="./portfolio.html" title="Portfolio">Portfolio</a>
+						<a class="header__item" href="./portfolio.html" title="Portfolio"
+							>Portfolio</a
+						>
 					</li>
 					<li>
-						<a href="./index.html" title="Kontakt">Kontakt</a>
+						<a class="header__item" href="./index.html" title="Kontakt"
+							>Kontakt</a
+						>
 					</li>
 				</ul>
 			</nav>
-			<ul class="header__list">
-				<li class="list__item">
+			<ul class="address__list">
+				<li>
 					<a
+						class="list__item"
 						href="mailto:info@devstudio.com"
 						target="_blank"
 						rel="noreferrer nofollow noopener"
 						>info@devstudio.com</a
 					>
 				</li>
-				<li class="list__item">
-					<a href="tel:+48111111111">+48 111 111 111</a>
+				<li>
+					<a class="list__item" href="tel:+48111111111">+48 111 111 111</a>
 				</li>
 			</ul>
 		</header>
@@ -66,7 +73,7 @@
 				</ul>
 			</div>
 			<section class="main-sites">
-				<ul class="main__list">
+				<ul class="sites__list">
 					<li>
 						<figure class="main__title">
 							<a href="./portfolio.html"
@@ -78,7 +85,7 @@
 									height="294"
 								/>
 							</a>
-							<figcaption class="title__box">
+							<figcaption class="title__box title__box--color">
 								<h3 class="title__name">Technocrak</h3>
 								<p class="title__site">Strona internetowa</p>
 							</figcaption>
@@ -94,7 +101,7 @@
 									width="370"
 									height="294"
 							/></a>
-							<figcaption class="title__text">
+							<figcaption class="title__box title__box--color">
 								<h3 class="title__name">Grafika New Orlean vs Golden Star</h3>
 								<p class="title__site">Dizajn</p>
 							</figcaption>
@@ -110,7 +117,7 @@
 									width="370"
 									height="294"
 							/></a>
-							<figcaption class="title__text">
+							<figcaption class="title__box title__box--color">
 								<h3 class="title__name">Restauracja Seafood</h3>
 								<p class="title__site">Aplikacja</p>
 							</figcaption>
@@ -126,7 +133,7 @@
 									width="370"
 									height="294"
 							/></a>
-							<figcaption class="title__text">
+							<figcaption class="title__box title__box--color">
 								<h3 class="title__name">Projekt Prime</h3>
 								<p class="title__site">Marketing</p>
 							</figcaption>
@@ -142,7 +149,7 @@
 									width="370"
 									height="294"
 							/></a>
-							<figcaption class="title__text">
+							<figcaption class="title__box title__box--color">
 								<h3 class="title__name">Projekt Boxes</h3>
 								<p class="title__site">Aplikacja</p>
 							</figcaption>
@@ -158,7 +165,7 @@
 									width="370"
 									height="294"
 							/></a>
-							<figcaption class="title__text">
+							<figcaption class="title__box title__box--color">
 								<h3 class="title__name">Inspiration has no Borders</h3>
 								<p class="title__site">Strona internetowa</p>
 							</figcaption>
@@ -174,7 +181,7 @@
 									width="370"
 									height="294"
 							/></a>
-							<figcaption class="title__text">
+							<figcaption class="title__box title__box--color">
 								<h3 class="title__name">Magazyn Limited Edition</h3>
 								<p class="title__site">Dizajn</p>
 							</figcaption>
@@ -190,7 +197,7 @@
 									width="370"
 									height="294"
 							/></a>
-							<figcaption class="title__text">
+							<figcaption class="title__box title__box--color">
 								<h3 class="title__name">Projekt LAB</h3>
 								<p class="title__site">Marketing</p>
 							</figcaption>
@@ -206,7 +213,7 @@
 									width="370"
 									height="294"
 							/></a>
-							<figcaption class="title__text">
+							<figcaption class="title__box title__box--color">
 								<h3 class="title__name">Growing Biznes</h3>
 								<p class="title__site">Aplikacja</p>
 							</figcaption>
@@ -221,12 +228,14 @@
 			>
 			<address class="address">
 				<a href="./index.html" target="_self">
-					<span class="address__item">m. Warszawa, Aleje Jerozolimskie 21</span>
+					<span class="address__item address__item--color"
+						>m. Warszawa, Aleje Jerozolimskie 21</span
+					>
 				</a>
-				<ul class="address__list">
+				<ul class="contact__list">
 					<li>
 						<a
-							class="address__item"
+							class="contact__item contact__item--color"
 							href="mailto:info@devstudio.com"
 							target="_blank"
 							rel="noreferrer nofollow noopener"
@@ -235,7 +244,11 @@
 						>
 					</li>
 					<li>
-						<a class="address__item" href="tel:+48111111111">+48 111 111 111</a>
+						<a
+							class="contact__item contact__item--color"
+							href="tel:+48111111111"
+							>+48 111 111 111</a
+						>
 					</li>
 				</ul>
 			</address>
