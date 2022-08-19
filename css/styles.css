@@ -1,13 +1,23 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'Raleway', sans-serif;
     font-size: 14px;
     color: #212121;
 }
 
-.menu a {
+.header {
+    
+}
+
+.header a,
+.footer a {
     color: #212121;
     text-decoration: none;
     
+}
+
+.header__logo {
+    padding: 24px 1240px 25px 215px;
+
 }
 
 .logo {
@@ -18,32 +28,59 @@ body {
     line-height: 31px;
     letter-spacing: 0.03em;
 }
-.logo-name {
+
+.logo__item {
     color: #2196F3;
 }
 
-.btn {
+.header__list {
+    list-style-type: none;
+}
+
+.header__list a:hover,
+.header__list a:focus {
+    color: #2196F3;
+}
+
+.menu__list {
+    list-style-type: none;
+}
+
+.btn__item {
     cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus {
+.btn__item:hover,
+.btn__item:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
 
-a:hover, a:focus {
+.main__list {
+    list-style-type: none;
+}
+.main__title:hover, .main__title:focus {
     color: #2196F3;
 }
 
-h3 {
+.title__box .title__name {
     font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
 }
 
-figcaption p {
+.title__text .title__site {
     color: #757575;
+    font-size: 16px;
+    line-height: 30px;
 }
 
-.adress a {
+.address .address__item {
     text-decoration: none;
+    list-style-type: none;
+}
+
+.address__item:hover,
+.address__item:focus {
+    color: #2196F3;
 }
